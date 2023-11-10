@@ -497,7 +497,7 @@ button:focus:not(:focus-visible) {
 
 .hero1 h1 {
   color: rgb(255, 255, 255);
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: 700;
   font-family: "Playfair Display", serif;
 }

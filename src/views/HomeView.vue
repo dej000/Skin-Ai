@@ -13,9 +13,9 @@
     <button class="btn2">Explore More</button>
    </div>
     </div>
-    <div class="right">
+    <!-- <div class="right">
       <img src="../assets/pexels-sora-shimazaki-5938639.png" alt="">
-    </div>
+    </div> -->
    
    </div>
   </section>
@@ -24,7 +24,10 @@
       <div class="d-flex flex-column">
         <div>
           <div class="d-flex ">
-            <div class="dash"></div><p>WHO WE ARE</p>
+            <div class="d-flex align-items-center"><p ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
+              </svg>
+                WHO WE ARE</p></div>
           </div>
          
           <h1>
@@ -41,23 +44,34 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
       </div>
       
-      <div class="d-flex justify-content-between  ">
+      <div class="d-flex justify-content-between gap-3 ">
         <div class="box p-3">
           <h1 class="text-center mb-4">10K</h1>
           <p  class="text-center">Featured skincare here</p>
         </div>
         <div class="box p-3">
-          <h1 class="text-center mb-4">10K</h1>
-          <p  class="text-center">Featured skincare here</p>
+          <h1 class="text-center mb-4">120K</h1>
+          <p  class="text-center">Featured skincare brand  <br> available  here here</p>
         </div>
       </div>
      </div> 
      
       </div>
   </section>
-  <section class="  d-flex justify-content-center align-items-center mt-5 mb-5">
+  <section class="vh-100 container  d-flex justify-content-center align-items-center  bord ">
+      <div class="d-flex flex-column">
+        <div><p class="fw-bold text-center m" ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
+          </svg>
+          FEATURED BRANDS</p></div>
+        <h1 class="text-center">
+       Many Excellent<br> Brands used by Artist
+        </h1>
+      </div>
+   </section>
+  <section class="  d-flex justify-content-center align-items-center pt-5 pb-5" >
     <div class="container d-flex justify-content-between  hero2  ">
-      <div >
+      <!-- <div >
         <div class="d-flex gap-2 gall">
           <div class="d-flex gap-2 flex-column">
             <div class="grid-item3"></div>
@@ -77,11 +91,15 @@
             <div class="column3"><img src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1699579177/pexels-monstera-production-6977726_pnexnv.jpg" alt=""></div>
           </div> 
       </div>
-      </div>
-     
-      <div class="d-flex flex-column">
+      </div> -->
+     <div></div>
+      <div class="d-flex flex-column ">
         <div>
-          <p>-- GALLERY OF MEMBER</p>
+          <div class="d-flex align-items-center"><p ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
+            </svg>
+              GALLERY OF MEMBER</p></div>
+          
           <h1>
             Your Beauty,<br>Your Lifestyle, <br>Elevated
           </h1>
@@ -151,7 +169,11 @@
   </section>
   <section style="background-color: #0b3229">
         <div class=" info   pt-5 pb-5 container">
-          <p  class="fw-bold text-center mb-">BECOME A MEMBER</p>
+          <div><p class="fw-bold text-center m" ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.813721" width="90" height="08" rx="2" fill="#dcf147"/>
+            </svg>
+            BECOME A MEMBER</p></div>
+        
             <h1 class="fw-bold text-center   mb-5">Be a Beauty Insider: <br>
               Sign Up For Membership</h1>
            
@@ -218,6 +240,10 @@ data() {
     width: 100%;
     border-radius: 10px;
   }
+}
+.bord {
+ 
+  border-bottom: 1px solid #3a5950;
 }
 .box{
   background-color: #ffffff;

@@ -410,7 +410,7 @@ button:focus:not(:focus-visible) {
   background-position: 74% 43%; background-position: bottom;
   background-repeat: no-repeat;
   background-size: 365px;
-  padding-top: 80px;
+  padding-top: 0px;
 }
 .column1{
   height: 260px;
@@ -468,6 +468,7 @@ button:focus:not(:focus-visible) {
   .hero1{
     display: flex;
     flex-direction: column;
+    margin-top: 0 !important;
   }
   .info h1[data-v-b4e148ca] {
     color: rgb(255, 255, 255);

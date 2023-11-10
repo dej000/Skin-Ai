@@ -527,7 +527,7 @@ button:focus:not(:focus-visible) {
 
 .grid-item2{
   height:70px;
-  width: 100%;
+  width: 150px;
   background-color: #ffffff;
   border-radius: 10px;
 }

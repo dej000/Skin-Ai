@@ -472,7 +472,7 @@ button:focus:not(:focus-visible) {
   }
   .info h1[data-v-b4e148ca] {
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 28px;
     font-weight: 700;
     font-family: "Playfair Display", serif;
 }
@@ -488,7 +488,7 @@ button:focus:not(:focus-visible) {
   .hero2{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
   }
   .hero1 img[data-v-b4e148ca] {
     max-width: 155px;
@@ -497,12 +497,12 @@ button:focus:not(:focus-visible) {
 
 .hero1 h1 {
   color: rgb(255, 255, 255);
-  font-size: 2.5rem;
+  font-size: 28px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
 }
 .hero2 h1[data-v-b4e148ca] {
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: 400;
   font-family: "Playfair Display", serif;
 }

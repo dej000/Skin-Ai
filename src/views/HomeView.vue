@@ -233,7 +233,7 @@ data() {
   background-repeat: no-repeat;
 }
 .column1{
-  height: 260px;
+  height: 270px;
   width: 220px;
   border-radius: 10px;
   img{

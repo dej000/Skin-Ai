@@ -1,6 +1,6 @@
 <template>
   <NavBar/> 
-  <section class="vh-100 hero d-flex justify-content-center align-items-center ">
+  <section class="vh-100 hero d-flex justify-content-center hero-image align-items-center ctaBlock ">
    <div class="container  hero1  d-flex justify-content-between align-items-center  mt-5">
     <div class="d-flex flex-column left">
       <p class="bord"> <span>1</span> NO 1 BEAUTY CARE IN THE WORLD</p>
@@ -13,9 +13,6 @@
     <button class="btn2">Explore More</button>
    </div>
     </div>
-    <!-- <div class="right">
-      <img src="../assets/pexels-sora-shimazaki-5938639.png" alt="">
-    </div> -->
    
    </div>
   </section>
@@ -24,7 +21,7 @@
       <div class="d-flex flex-column">
         <div>
           <div class="d-flex ">
-            <div class="d-flex align-items-center"><p ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="d-flex align-items-center"><p class="m-0" ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
               </svg>
                 WHO WE ARE</p></div>
@@ -37,11 +34,11 @@
         <!-- <img src="../assets/pexels-angela-roma-7479797.png" alt=""> -->
       </div>
      
-     <div class="d-flex flex-column">
+     <div class="d-flex flex-column gap-3">
       <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. byyyyooo <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id  byyyyooo<br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitbyyyyooo. <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
       </div>
       
       <div class="d-flex justify-content-between gap-3 ">
@@ -71,7 +68,7 @@
    </section>
   <section class="  d-flex justify-content-center align-items-center pt-5 pb-5" >
     <div class="container d-flex justify-content-between  hero2  ">
-      <!-- <div >
+       <div >
         <div class="d-flex gap-2 gall">
           <div class="d-flex gap-2 flex-column">
             <div class="grid-item3"></div>
@@ -85,25 +82,20 @@
               <div class="grid-item"><img src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1699513458/pexels-cottonbro-studio-4046420_qfwxko.jpg" alt=""></div>
           </div>
 
-        <div class="d-flex gap-2 flex-column god">
-            <div class="grid-item3"></div>
-            <div class="column1"><img src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1699513153/pexels-photo-4126730_cf3ul6.webp" alt=""></div>
-            <div class="column3"><img src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1699579177/pexels-monstera-production-6977726_pnexnv.jpg" alt=""></div>
-          </div> 
       </div>
-      </div> -->
+      </div> 
      <div></div>
-      <div class="d-flex flex-column ">
+      <div class="d-flex flex-column  ">
         <div>
           <div class="d-flex align-items-center"><p ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
             </svg>
               GALLERY OF MEMBER</p></div>
           
-          <h1>
+          <h1 class="mb-4" >
             Your Beauty,<br>Your Lifestyle, <br>Elevated
           </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quibusdam dignissimos magni nemo id <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet <br> elit. Quibusdam dignissimos magni nemo idLorem ipsum dolor sit amet <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
         </div>
        
       </div>
@@ -231,9 +223,18 @@ data() {
 </script>
 
 <style lang="scss"  scoped>
+
+.ctaBlock {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-position: 87% 76%;
+  background-size: 525px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
 .column1{
   height: 260px;
-  width: 200px;
+  width: 220px;
   border-radius: 10px;
   img{
     height: 100%; 
@@ -241,8 +242,9 @@ data() {
     border-radius: 10px;
   }
 }
+
+
 .bord {
- 
   border-bottom: 1px solid #3a5950;
 }
 .box{
@@ -250,8 +252,8 @@ data() {
   border-radius: 10px;
 }
 .column3{
-  height: 140px;
-  width: 200px;
+  height: 180px;
+  width: 220px;
   border-radius: 10px;
   img{
     height: 100%; 
@@ -260,8 +262,8 @@ data() {
   }
 }
 .grid-item{
-  height: 210px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   border-radius: 10px;
   img{
     height: 100%; 
@@ -271,8 +273,8 @@ data() {
 }
 
 .grid-item2{
-  height: 100px;
-  width: 200px;
+  height: 110px;
+  width: 220px;
   border-radius: 10px;
   img{
     height: 100%; 
@@ -281,7 +283,7 @@ data() {
   }
 }
 .grid-item3{
-  height: 50px;
+  height: 60px;
   width: 150px;
  
 }
@@ -325,8 +327,11 @@ span{
   }
 }
 .hero{
-  background:#0b3229 ;
-  transition: background-color 0.5s ease all;
+  background-color:#0b3229 ;
+  background-image: url(../assets/pexels-sora-shimazaki-5938639.png);
+  background-position: 74% 43%;
+  background-size: 365px;
+  
   p {
     color: rgb(255, 255, 255); 
     font-family: 'Jost', sans-serif;
@@ -340,9 +345,10 @@ span{
  
   h1 {
     color: rgb(255, 255, 255);
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+    line-height: 100%;
   }
 
   img{
@@ -360,9 +366,10 @@ span{
 }
 h1 {
  
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 4rem;
+  font-weight: 700;
   font-family: 'Playfair Display', serif;
+  line-height: 100%;
 }
 }
 button:focus:not(:focus-visible) {
@@ -381,6 +388,11 @@ button:focus:not(:focus-visible) {
   }
 }
 
+.container{
+  max-width: 1100px;
+}
+  
+
 @media (max-width: 990px) {
   .hero h1 {
     color: rgb(255, 255, 255);
@@ -392,7 +404,14 @@ button:focus:not(:focus-visible) {
   max-width: 344px;
   max-height: 396px;
 }
-
+.hero{
+  background-color:#0b3229 ;
+  background-image: url(../assets/pexels-sora-shimazaki-5938639.png);
+  background-position: 74% 43%; background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 365px;
+  padding-top: 80px;
+}
 .column1{
   height: 260px;
   width: 150px;
@@ -426,6 +445,16 @@ button:focus:not(:focus-visible) {
 
 .god{
   display: none !important;
+}
+.hero1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 }
 

@@ -472,7 +472,7 @@ button:focus:not(:focus-visible) {
   }
   .info h1[data-v-b4e148ca] {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 28px !important;
     font-weight: 700;
     font-family: "Playfair Display", serif;
 }
@@ -502,7 +502,7 @@ button:focus:not(:focus-visible) {
   font-family: "Playfair Display", serif;
 }
 .hero2 h1[data-v-b4e148ca] {
-  font-size: 28px;
+  font-size: 28px !important;
   font-weight: 400;
   font-family: "Playfair Display", serif;
 }

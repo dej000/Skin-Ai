@@ -75,6 +75,13 @@ import Logo from './Logo.vue';
               </div>
             </div>
           </div>
+           <div class="icon ">
+            <svg  @click="toggleMobileNav" v-if="mobile" :class="{'icon-active':mobileNav}" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 11.6667H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M5 20H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M5 28.3333H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>   
+      </div>  
          </nav> 
         
      
@@ -113,6 +120,7 @@ import Logo from './Logo.vue';
           <path d="M1.51611 22.4859L12.0021 11.9999L22.4881 22.4859M22.4881 1.51392L12.0001 11.9999L1.51611 1.51392" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           
+          
         <router-link  @click="toggleMobileNav();"  class="nav-link "  to="/">Home</router-link>
         <router-link  @click="toggleMobileNav();"  class="nav-link"  to="/services">Services</router-link>
            <router-link  @click="toggleMobileNav()"  class="nav-link"  to="/portfolio">Portfolio</router-link>
@@ -144,19 +152,13 @@ import Logo from './Logo.vue';
        </ul>   
      </transition>
        
-     <div  v-show="!mobile">
-      <div class="">
-        <router-link  class="text-decoration-none  btn2" to="/">  Login</router-link>     
-     </div>
-    </div>
-     <div class="icon ">
-            <svg  @click="toggleMobileNav" v-if="mobile" :class="{'icon-active':mobileNav}" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 11.6667H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M5 20H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M5 28.3333H35" stroke="#fff4ea" stroke-width="1.5" stroke-linecap="round"/>
-              </svg>   
-      </div> 
- 
+     
+   
+      <div  v-show="!mobile">
+        <div class="">
+          <router-link  class="text-decoration-none  btn2" to="/">  Login</router-link>     
+       </div>
+      </div>
    </header>
 
 </template>

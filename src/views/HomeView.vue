@@ -92,9 +92,9 @@
             </svg>
               GALLERY OF MEMBER</p></div>
           
-          <h1 class="mb-4 text-black" >
+          <h2 class="mb-4 text-black" >
             Your Beauty,<br>Your Lifestyle, <br>Elevated
-          </h1>
+          </h2>
         <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet <br> elit. Quibusdam dignissimos magni nemo idLorem ipsum dolor sit amet <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
         </div>
        
@@ -377,6 +377,11 @@ h1 {
   font-family: 'Playfair Display', serif;
   line-height: 100%;
 }
+h2{
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
 }
 button:focus:not(:focus-visible) {
   outline: none !important;
@@ -461,6 +466,12 @@ button:focus:not(:focus-visible) {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  h2{
+    color: #ffffff !important;
+  }
+ 
+
 }
 }
 

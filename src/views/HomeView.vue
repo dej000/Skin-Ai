@@ -55,7 +55,7 @@
      
       </div>
   </section>
-  <section class="vh-100 container  d-flex justify-content-center align-items-center  bord ">
+  <section class="vh-100 container  d-flex justify-content-center align-items-center mb-5  bord ">
       <div class="d-flex flex-column">
         <div><p class="fw-bold text-center m" ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
@@ -66,7 +66,7 @@
         </h1>
       </div>
    </section>
-  <section class="  d-flex justify-content-center align-items-center pt-5 pb-5" >
+  <section class="  d-flex justify-content-center align-items-center pt-5 pb-5 dual-background-section" >
     <div class="container d-flex justify-content-between  hero2  ">
        <div >
         <div class="d-flex gap-2 gall">
@@ -85,17 +85,17 @@
       </div>
       </div> 
      <div></div>
-      <div class="d-flex flex-column  ">
+      <div class="d-flex flex-column">
         <div>
-          <div class="d-flex align-items-center"><p ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="d-flex align-items-center"><p class=" text-black"  ><svg  width="20" height="10" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.813721" width="90" height="08" rx="2" fill="#3C3C3C"/>
             </svg>
               GALLERY OF MEMBER</p></div>
           
-          <h1 class="mb-4" >
+          <h1 class="mb-4 text-black" >
             Your Beauty,<br>Your Lifestyle, <br>Elevated
           </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet <br> elit. Quibusdam dignissimos magni nemo idLorem ipsum dolor sit amet <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
+        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet <br>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet <br> elit. Quibusdam dignissimos magni nemo idLorem ipsum dolor sit amet <br> laborum blanditiis error a aperiam cumque necessitatibus!</p>
         </div>
        
       </div>
@@ -192,8 +192,7 @@ import FooterNav from '../components/FooterNav.vue';
 },
 data() {
     return {
-     
-    
+      
    }
     },
 
@@ -218,12 +217,19 @@ data() {
       }
 
     },
+
   },
   }
 </script>
 
 <style lang="scss"  scoped>
-
+.dual-background-section {
+  background: linear-gradient(to bottom,#ffffff,#ffffff 50%, #0b3229 50%, #0b3229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Set the text color to be visible on the background */
+}
 .ctaBlock {
   padding-top: 160px;
   padding-bottom: 160px;
